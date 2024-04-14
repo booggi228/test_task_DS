@@ -7,14 +7,16 @@ This project requires Python version 3.11.
 1. Open a terminal or command prompt.
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command to clone the repository:
+```
 git clone https://github.com/booggi228/test_task_DS.git
-
+```
 ### Create a Virtual Environment
 1. Navigate into the cloned repository.
 2. Run the following command to create a virtual environment:
+```
 python -m venv regression_task
-
-3. Activate the virtual environment:
+```
+4. Activate the virtual environment:
 - On Windows:
   ```
   regression_task\Scripts\activate
