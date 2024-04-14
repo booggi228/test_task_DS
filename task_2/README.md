@@ -1,35 +1,44 @@
-Regression on the tabular data.
+# Regression on Tabular Data
 
-Python version 3.11
+## Python Version
+This project requires Python version 3.11.
 
-Instructions:
-Open a terminal or command prompt.
-Navigate to the directory where you want to clone the repository.
-Run the following command to clone the repository:
-git clone <repository_url>
+## Instructions
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command to clone the repository:
+git clone https://github.com/booggi228/test_task_DS.git
 
-Create a Virtual Environment:
-
-Navigate into the cloned repository.
-Run the following command to create a virtual environment:
+### Create a Virtual Environment
+1. Navigate into the cloned repository.
+2. Run the following command to create a virtual environment:
 python -m venv regression_task
 
-On windows:
-regression_task\Scripts\activate
+3. Activate the virtual environment:
+- On Windows:
+  ```
+  regression_task\Scripts\activate
+  ```
+- On Mac/Linux:
+  ```
+  source regression_task/bin/activate
+  ```
 
-On Mac/Linux:
-source regression_task/bin/activate
-
-Install Requirements:
-
+### Install Requirements
+Run the following command to install the required dependencies:
 pip install -r requirements.txt
 
-In 'notebooks' folder there is a notebook with EDA and model selection part.
+## Notebooks
+The 'notebooks' folder contains a Jupyter notebook with Exploratory Data Analysis (EDA) and model selection.
 
-For running the training script type:
+## Training
+To run the training script, type the following command in the terminal:
 python train.py
 
-For running the inference script type:
+
+## Inference
+To run the inference script, type the following command in the terminal:
 python predict.py
 
-File with prediction will be stored in 'output' folder.
+
+The file with predictions will be stored in the 'output' folder.
