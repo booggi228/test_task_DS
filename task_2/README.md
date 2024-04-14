@@ -33,12 +33,14 @@ The 'notebooks' folder contains a Jupyter notebook with Exploratory Data Analysi
 
 ## Training
 To run the training script, type the following command in the terminal:
+```
 python train.py
-
+```
 
 ## Inference
 To run the inference script, type the following command in the terminal:
+```
 python predict.py
-
+```
 
 The file with predictions will be stored in the 'output' folder.
